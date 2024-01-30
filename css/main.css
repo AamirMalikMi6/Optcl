@@ -713,3 +713,14 @@ footer ul>li>a:hover{
 	direction: rtl!important;
 	display: inline-block;
 }
+
+/* about us style mobile screen */
+
+@media screen and (max-width: 750px) {
+	.about-section{
+		min-height: 60vh !important;
+	}
+	.textIndent{
+		text-align: justify !important;
+	}
+}
