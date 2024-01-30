@@ -1,0 +1,19 @@
+.contactus_col #map{
+    border-radius: 0px!important;
+    border-bottom-right-radius: 50px!important;
+}
+
+@media only screen and (max-width: 991px) {
+    .contactus_col{
+        flex-direction: column !important;
+    }
+    .contactus_col .contactus-form-responsive{
+        width: 100%!important;
+    }
+    .contactus_col .contactus-map-responsive{
+        display: block !important;
+        width: 100%!important;
+        height: 450px!important;
+        border-radius: 0px!important;
+    }
+}
