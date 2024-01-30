@@ -52,7 +52,7 @@
               </div>
               <div class="col-md-7 mapbox-container remPad  contactus-map-responsive">
 
-                <div id="map">test</div>
+                <div id="map"></div>
 
               </div>
 
