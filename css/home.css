@@ -1,42 +1,51 @@
 @media screen and (max-width: 991px) {
-    .fnt-40 {
+    .mobile-font-25 {
         font-size: 25px !important;
     }
 
-    .fnt-80 {
+    .mobile-font-50 {
         font-size: 50px !important;
     }
 
-    .spacer-120 {
-        height: 60px;
+    .spacer-mobile-60 {
+        display: block;
+        height: 60px !important;
     }
+
     .img-partners {
         max-width: 50px;
         height: 50px;
         margin-bottom: 10px;
     }
+
     .logo-img {
         height: 260px;
     }
-    #teardropSLide{
+
+    #teardropSLide {
         position: absolute;
         bottom: 20%;
         left: 25%;
         height: 200px;
         width: 200px;
     }
+
     #floating-details {
         position: static;
     }
+
     .-mt-150 {
         margin-top: -150px;
     }
+
     .mobile-hidden {
         display: none !important;
     }
+
     .products-relative {
         position: relative;
     }
+
     .products-bg-img {
         position: absolute;
         top: 0;
@@ -49,43 +58,52 @@
         opacity: 0.5;
 
     }
+
     .col-mobile {
         flex-basis: 100%;
-        margin-bottom: 30px; 
-        /* flex: 0 0 0%; */
-        /* margin-bottom: 60px; */
+        margin-bottom: 30px;
         overflow-x: auto;
-      }
-      .mobile-text-center {
+    }
+
+    .mobile-text-center {
         text-align: center;
-      }
-      .margin-left-20 {
+    }
+
+    .margin-left-20 {
         margin-left: 20%;
-      }
-      .prod-img {
+    }
+
+    .prod-img {
         background-color: #FFD200;
-      }
-      .mobile-row {
+    }
+
+    .mobile-row {
         flex-wrap: nowrap;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-      }
-      .ml-15 {
+    }
+
+    .mobile-row::-webkit-scrollbar {
+        display: none;
+    }
+
+    .ml-15 {
         margin-left: 15%;
         position: relative;
-      }
-      .item-caption {
+    }
+
+    .item-caption {
         position: absolute;
         top: 33%;
         right: 40%;
         font-size: 45px;
-      }
-    
-    
+    }
+
+
 }
+
 @media screen and (min-width: 992px) {
     .products-bg-img {
         display: none;
     }
-    
+
 }
