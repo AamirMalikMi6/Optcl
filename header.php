@@ -16,11 +16,19 @@
     
     <!--styles-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/locomotive-scroll.min.css">
     
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contactus-responsive.css">
+    <link rel="stylesheet" href="css/distributors.css">
+    <link rel="stylesheet" href="css/footer-responsive.css">
 
     <!--mapbox-->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">

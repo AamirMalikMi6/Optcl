@@ -18,9 +18,9 @@
 
     <div class="row">
 
-      <div class="col"></div>
+      <div class="col-lg-1 col-md-0"></div>
 
-      <div class="col">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6">
         <h5 class="fnt-white">Lorem ipsum</h5>
         <div class="spacer-10"></div>
 
@@ -34,7 +34,7 @@
         </ul>
       </div>
 
-      <div class="col">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6">
         <h5 class="fnt-white">Lorem ipsum</h5>
         <div class="spacer-10"></div>
 
@@ -48,7 +48,7 @@
         </ul>
       </div>
 
-      <div class="col">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6">
         <h5 class="fnt-white">Lorem ipsum</h5>
         <div class="spacer-10"></div>
 
@@ -62,7 +62,7 @@
         </ul>
       </div>
 
-      <div class="col">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6">
         <h5 class="fnt-white">Lorem ipsum</h5>
         <div class="spacer-10"></div>
 
@@ -76,7 +76,7 @@
         </ul>
       </div>
 
-       <div class="col">
+       <div class="col-lg-2 col-md-4 col-sm-6 col-6">
         <h5 class="fnt-white">Lorem ipsum</h5>
         <div class="spacer-10"></div>
 
@@ -90,7 +90,7 @@
         </ul>
       </div>                                       
       
-      <div class="col"></div>
+      <div class="col-lg-1 col-md-0"></div>
     </div>
   </div>
   
@@ -114,7 +114,7 @@
 
 <div class="spacer-20"></div>
 
-<div class="copyright">
+<div class="copyright copyright-bottom-responsive">
   <center>
     <p class="fnt-white">All rights reserved to Orient Provision and Trading CO., LTD. 2023</p>
   </center>
