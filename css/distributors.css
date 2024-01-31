@@ -15,6 +15,12 @@
         min-height: 180px!important;
         object-fit: cover;
     }
+    .br-rad-shadowed-responsive-ar{
+        border-radius: 1rem!important;
+        border-top-left-radius: 0px!important;
+        min-height: 180px!important;
+        object-fit: cover;
+    }
     .fnt-16-responsive{
         font-size: 16px!important;
     }

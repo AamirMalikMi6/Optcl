@@ -12,11 +12,9 @@
   
   <div data-scroll-container>
 
-
-    <section class="desktop-view" data-scroll-section>
-      
+    <section class="" data-scroll-section>
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 d-none d-md-block"></div>
         <div class="spacer-40"></div>
 
         <div class="container">
@@ -26,37 +24,29 @@
           </h3>
           <div class="spacer-20"></div>
 
-            <div class="row" data-scroll-direction="vertical" data-scroll-repeat data-scroll-speed="3">
+            <div class="row contactus_col_ar" data-scroll-direction="vertical" data-scroll-repeat data-scroll-speed="3">
               
-              <div class="col-md-5 remPad bg-light-white contactus-form">
+              <div class="col-md-5 remPad bg-light-white contactus-form contactus-form-responsive">
+                <form action="">
+                  <input type="text" class="form-control cu-control" placeholder="الاسم" />
+                  <div class="spacer-10"></div>
 
-            
-                  
-             <form action="">
-               <input type="text" class="form-control cu-control" placeholder="الاسم" />
-               <div class="spacer-10"></div>
+                  <input type="tel" class="form-control cu-control force-rtl" placeholder="رقم الجوال"/>
+                  <div class="spacer-10"></div>
 
-               <input type="tel" class="form-control cu-control force-rtl" placeholder="رقم الجوال"/>
-               <div class="spacer-10"></div>
+                  <input type="email" class="form-control cu-control force-rtl" placeholder="البريد الالكتروني"/>
+                  <div class="spacer-10"></div>
 
-               <input type="email" class="form-control cu-control force-rtl" placeholder="البريد الالكتروني"/>
-               <div class="spacer-10"></div>
+                  <textarea name="" id="" cols="30" rows="10" class="form-control cu-control" placeholder="الرسالة">
+                  </textarea> 
+                  <div class="spacer-10"></div>
 
-               <textarea name="" id="" cols="30" rows="10" class="form-control cu-control" placeholder="الرسالة">
-               </textarea> 
-               <div class="spacer-10"></div>
+                  <button class="btn btn-warning btn-yellow w-100">إرسال <i class="fa-solid fa-location-arrow"></i></button>
 
-               <button class="btn btn-warning btn-yellow w-100">إرسال <i class="fa-solid fa-location-arrow"></i></button>
-
-             </form>
-           
-
-
+                </form>
               </div>
-              <div class="col-md-7 mapbox-container remPad bg-light-white">
-
+              <div class="col-md-7 mapbox-container remPad contactus-ar-map-responsive bg-light-white">
                 <div id="map"></div>
-
               </div>
 
             </div>

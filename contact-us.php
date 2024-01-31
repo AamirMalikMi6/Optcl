@@ -16,7 +16,7 @@
     <section class="" data-scroll-section>
       
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 d-none d-md-block"></div>
         <div class="spacer-40"></div>
 
         <div class="container">
@@ -50,10 +50,8 @@
 
 
               </div>
-              <div class="col-md-7 mapbox-container remPad  contactus-map-responsive">
-
+              <div class="col-md-7 mapbox-container remPad contactus-map-responsive">
                 <div id="map"></div>
-
               </div>
 
             </div>

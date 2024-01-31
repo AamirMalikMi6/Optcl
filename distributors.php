@@ -16,7 +16,7 @@
     <section class="non-vh" data-scroll-section>
       
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 d-none d-md-block"></div>
         <div class="spacer-40"></div>
 
         <div class="container">
