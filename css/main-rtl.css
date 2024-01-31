@@ -17,7 +17,7 @@ p{
 	font-family: "GE-SS Two Light";
 	font-size: 18px;
 }
-ul{}
+/* ul{} */
 ul>li{
 	font-family: "GE-SS Two Light";
 }
@@ -150,7 +150,7 @@ footer ul>li>a:hover{
 	background-color: #282160;
 	color: #FFD200;
 	border-color: #282160; 
-	ransition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
 .fnt-is-yellow{
@@ -192,9 +192,9 @@ footer ul>li>a:hover{
 	transition: all 300ms ease;
 }
 
-#bg-teardrop{
-/*	position: relative;*/
-}
+/* #bg-teardrop{
+	position: relative;
+} */
 
 .teardropbox{
 	position: relative;
@@ -209,15 +209,15 @@ footer ul>li>a:hover{
 	position: relative;
 }
 
-#teardropProducts{
-/*	position: relative;*/
-}
+/* #teardropProducts{
+	position: relative;
+} */
 
 #teardropProducts .carousel-item img{
 	background-color: #F1EFEB;
 }
 
-#teardropSLide .carousel-item{}
+/* #teardropSLide .carousel-item{} */
 
 #teardropThumbs .col img{
     background-color: #fff;
@@ -273,7 +273,7 @@ footer ul>li>a:hover{
 
 .hideThis{display: none !important;}
 .showThis{display: block !important;}
-.showThisInline{display: inline-block; !important;}
+.showThisInline{display: inline-block !important;}
 
 .bordered-shadow {
     border-radius: 15px;
@@ -347,8 +347,8 @@ footer ul>li>a:hover{
     left: -3rem;
     top: -3rem;
 }
-.services-header .top img{max-width: :7rem}
-.services-header .bottom{}
+.services-header .top img{max-width: 7rem}
+/* .services-header .bottom{} */
 
 .service-items{
 	display: none;
@@ -550,9 +550,9 @@ footer ul>li>a:hover{
     border-color: #FFD200;
 }
 
-.grid .element-item{
+/* .grid .element-item{
 
-}
+} */
 
 .grid .prod-item{
     background-color: #F1EFEB;

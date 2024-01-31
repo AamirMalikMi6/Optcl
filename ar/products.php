@@ -5,6 +5,7 @@
   <!--header-->
   
   <header>
+  <link rel="stylesheet" type="text/css" href="../css/ar-products.css">
 
     <?php include "navigation.php";?>
 
@@ -13,14 +14,14 @@
   <div data-scroll-container>
 
 
-    <section class="non-vh desktop-view" data-scroll-section>
+    <section class="non-vh" data-scroll-section>
       
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
-        <div class="spacer-40"></div>
+        <div class="spacer-120 spacer-mobile-60"></div>
+        <div class="spacer-40 mobile-remove-space"></div>
 
         <div class="container">
-          <h3 class="fnt-blue d-flex align-items-center">
+          <h3 class="fnt-blue d-flex align-items-center justify-content-center justify-content-md-start">
             <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
             الاقسام و المنتجات
           </h3>
@@ -30,7 +31,7 @@
               <div class="row">
                 <div class="col">
                   <center>
-                    <button class="button d-flex align-items-center justify-content-center fnt-blue is-checked" data-filter="*">
+                    <button class="button d-flex align-items-center justify-content-center mobile-margin-bottom-20 fnt-blue is-checked" data-filter="*">
                       <i class="fa-solid fa-table-list fa-mar-right icons"></i> جميع
                     </button>
                   </center>
@@ -39,7 +40,7 @@
 
                 <div class="col">
                   <center>
-                    <button class="button d-flex align-items-center justify-content-center fnt-blue" data-filter=".food-products">
+                    <button class="button d-flex align-items-center justify-content-center mobile-margin-bottom-20 fnt-blue" data-filter=".food-products">
                      <img src="../img/icons/fp.svg" class="img-fluid fa-mar-right icons"> المنتجات الغذائية
                     </button>                   
                   </center>
@@ -48,7 +49,7 @@
 
                 <div class="col">
                   <center>
-                    <button class="button d-flex align-items-center justify-content-center fnt-blue" data-filter=".non-food-products">
+                    <button class="button d-flex align-items-center justify-content-center mobile-margin-bottom-20 fnt-blue" data-filter=".non-food-products">
                       <img src="../img/icons/nfp.svg" class="img-fluid fa-mar-right icons"> المنتجات غير الغذائية
                     </button>                    
                   </center>
@@ -57,7 +58,7 @@
 
                 <div class="col">
                   <center>
-                     <button class="button d-flex align-items-center justify-content-center fnt-blue" data-filter=".pet-products">
+                     <button class="button d-flex align-items-center justify-content-center mobile-margin-bottom-20 fnt-blue" data-filter=".pet-products">
                       <img src="../img/icons/pp.svg" class="img-fluid fa-mar-right icons"> منتجات الحيوانات الأليفة
                     </button>                    
                   </center>
@@ -75,10 +76,10 @@
 
     </section>
 
-    <section class="desktop-view" data-scroll-section>
+    <section class="" data-scroll-section>
 
       <div class="container-fluid bg-white">
-         <div class="spacer-120"></div>
+         <div class="spacer-120 mobile-remove-space"></div>
 
          <div class="container">
            
@@ -202,7 +203,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-1.jpg" class="img-fluid">
 
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>
@@ -217,7 +218,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-2.jpg" class="img-fluid">
 
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                   
@@ -232,7 +233,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-3.jpg" class="img-fluid">
                
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                   
@@ -247,7 +248,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-4.jpg" class="img-fluid">
                       
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                   
@@ -262,7 +263,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-5.jpg" class="img-fluid">
                      
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                   
@@ -277,7 +278,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-6.jpg" class="img-fluid">
                       
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                  
@@ -292,7 +293,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-7.jpg" class="img-fluid">
                       
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                  
@@ -307,7 +308,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-8.jpg" class="img-fluid">
                       
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                  
@@ -322,7 +323,7 @@
                     <div class="prod-item">
                       <img src="../img/products/prod-9.jpg" class="img-fluid">
                       
-                      <div class="caption">
+                      <div class="caption mobile-text-center">
                         <h5 class="fnt-brown">اسم المنتج</h5>
                         <p class="fnt-15">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.</p>                      
                       </div>                  
