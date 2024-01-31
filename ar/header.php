@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/responsive-rtl.css">
 
+    <link rel="stylesheet" href="../css/contactus-responsive.css">
+    <link rel="stylesheet" href="../css/distributors.css">
+    <link rel="stylesheet" href="../css/footer-responsive.css">
+
     <!--mapbox-->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
     

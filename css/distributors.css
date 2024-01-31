@@ -1,0 +1,33 @@
+.distributor-responsive{
+    min-height: 57vh!important;
+}
+
+@media only screen and  (max-width: 768px) {
+    .distributor-responsive{
+        min-height: 85vh!important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .br-rad-shadowed-responsive{
+        border-radius: 1rem!important;
+        border-top-right-radius: 0px!important;
+        min-height: 180px!important;
+        object-fit: cover;
+    }
+    .br-rad-shadowed-responsive-ar{
+        border-radius: 1rem!important;
+        border-top-left-radius: 0px!important;
+        min-height: 180px!important;
+        object-fit: cover;
+    }
+    .fnt-16-responsive{
+        font-size: 16px!important;
+    }
+    .h3-responsive{
+        font-size: 20px!important;
+    }
+    .fc-responsive{
+        font-size: 14px!important;
+    }
+}

@@ -13,10 +13,10 @@
   <div data-scroll-container>
 
 
-    <section class="desktop-view" data-scroll-section>
+    <section class="" data-scroll-section>
       
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 d-none d-md-block"></div>
         <div class="spacer-40"></div>
 
         <div class="container">
@@ -26,12 +26,9 @@
           </h3>
           <div class="spacer-20"></div>
 
-            <div class="row" data-scroll-direction="vertical" data-scroll-repeat data-scroll-speed="3">
+            <div class="row contactus_col" data-scroll-direction="vertical" data-scroll-repeat data-scroll-speed="3">
               
-              <div class="col-md-5 remPad bg-light-white contactus-form">
-
-            
-                  
+              <div class="col-md-5 remPad bg-light-white contactus-form contactus-form-responsive">  
                  <form action="">
                    <input type="text" class="form-control cu-control" placeholder="Name" />
                    <div class="spacer-10"></div>
@@ -53,10 +50,8 @@
 
 
               </div>
-              <div class="col-md-7 mapbox-container remPad bg-light-white">
-
+              <div class="col-md-7 mapbox-container remPad contactus-map-responsive">
                 <div id="map"></div>
-
               </div>
 
             </div>
