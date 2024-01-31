@@ -5,7 +5,7 @@
   <!--header-->
   
   <header>
-
+  <link rel="stylesheet" type="text/css" href="services-ar.css">
     <?php include "navigation.php";?>
 
   </header>
@@ -13,10 +13,10 @@
   <div data-scroll-container>
 
 
-    <section class="non-vh desktop-view posRel-zIndex" data-scroll-section>
+    <section class="non-vh  posRel-zIndex" data-scroll-section>
       
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 d-none d-md-block"></div>
         <div class="spacer-40"></div>
 
         <div class="container">
@@ -27,8 +27,63 @@
           <div class="spacer-20"></div>
 
           <div class="services-thumbs services-inner">
+          <div class="row d-md-none">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active position-relative"
+                    <center>
+                      <a href="" data-bs-target="#servicesCarousel" data-bs-slide-to="0">
+                        <img src="../img/services/service0.jpg" class="img-fluid serviceCaptionImg ">
+                      </a>
 
-            <div class="row">
+                      <p class="serviceCaptionText fnt-white position-absolute ">تقديم الطعام</p>
+                    </center>
+                  </div>
+                  <div class="carousel-item "
+                    <center>
+                      <a href="" data-bs-target="#servicesCarousel" data-bs-slide-to="1">
+                        <img src="../img/services/service1.jpg" class="img-fluid serviceCaptionImg ">
+                      </a>
+                      <p class="serviceCaptionText captionsuppilertext fnt-white position-absolute ">الموردون</p>
+                    </center>
+                  </div>
+                  <div class="carousel-item "
+                    <center>
+                      <a href="" data-bs-target="#servicesCarousel" data-bs-slide-to="2">
+                        <img src="../img/services/service2.jpg" class="img-fluid serviceCaptionImg ">
+                      </a>
+                      <p class="serviceCaptionText fnt-white position-absolute ">السوبر ماركت</p>
+                    </center>
+                  </div>
+                  <div class="carousel-item "
+                    <center>
+                      <a href="" data-bs-target="#servicesCarousel" data-bs-slide-to="3">
+                        <img src="../img/services/service3.jpg" class="img-fluid serviceCaptionImg ">
+                      </a>
+                      <p class="serviceCaptionHotel fnt-white position-absolute ">المطاعم و الفنادق</p>
+                    </center>
+                  </div>
+                  <div class="carousel-item "
+                    <center>
+                      <a href="" data-bs-target="#servicesCarousel" data-bs-slide-to="4">
+                        <img src="../img/services/service4.jpg" class="img-fluid serviceCaptionImg ">
+                      </a>
+                      <p class="caption serviceCaptionText captionFamily fnt-white position-absolute">الأسر المنتجة</p>
+                    </center>
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="row d-none d-md-flex">
 
               <div class="item-thumb col">
                 <center>
@@ -86,7 +141,7 @@
 
     </section>
 
-    <section class="desktop-view" data-scroll-section>
+    <section class="" data-scroll-section>
 
       <div class="container-fluid">
         <div class="spacer-120"></div>
@@ -98,8 +153,8 @@
 
               <div class="carousel-item posRel active" data-bs-interval="10000">
                 <div class="row">
-                  <div class="col-md-6">
-                    <h4 class="fnt-blue d-flex align-items-center">
+                  <div class="col-md-6 text-center text-sm-start">
+                    <h4 class="fnt-blue d-flex align-items-center justify-content-center justify-content-sm-start">
                       <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
                      تقديم الطعام
                     </h4>
@@ -118,8 +173,8 @@
 
               <div class="carousel-item posRel" data-bs-interval="10000">
                 <div class="row">
-                  <div class="col-md-6">
-                    <h4 class="fnt-blue d-flex align-items-center">
+                  <div class="col-md-6 text-center text-sm-start">
+                    <h4 class="fnt-blue d-flex align-items-center justify-content-center justify-content-sm-start">
                       <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
                      الموردون
                     </h4>
@@ -138,8 +193,8 @@
 
               <div class="carousel-item posRel" data-bs-interval="10000">
                 <div class="row">
-                  <div class="col-md-6">
-                    <h4 class="fnt-blue d-flex align-items-center">
+                  <div class="col-md-6 text-center text-sm-start">
+                    <h4 class="fnt-blue d-flex align-items-center justify-content-center justify-content-sm-start">
                       <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
                      السوبر ماركت
                     </h4>
@@ -158,8 +213,8 @@
 
               <div class="carousel-item  posRel" data-bs-interval="10000">
                 <div class="row">
-                  <div class="col-md-6">
-                    <h4 class="fnt-blue d-flex align-items-center">
+                  <div class="col-md-6 text-center text-sm-start">
+                    <h4 class="fnt-blue d-flex align-items-center justify-content-center justify-content-sm-start">
                       <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
                      المطاعم و الفنادق
                     </h4>
@@ -178,8 +233,8 @@
 
               <div class="carousel-item posRel" data-bs-interval="10000">
                 <div class="row">
-                  <div class="col-md-6">
-                    <h4 class="fnt-blue d-flex align-items-center">
+                  <div class="col-md-6 text-center text-sm-start">
+                    <h4 class="fnt-blue d-flex align-items-center justify-content-center justify-content-sm-start">
                       <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
                      الأسر المنتجة
                     </h4>
@@ -210,12 +265,12 @@
           
         </div>  
 
-        <div class="spacer-120"></div>
+        <div class="spacer-120 d-none d-md-block"></div>
       </div>
       
     </section>
 
-    <section  class="non-parallax desktop-view posRel-zIndex" style="background-image: url('../img/home-services-bg.jpg')" data-scroll-section>
+    <section  class="non-parallax  posRel-zIndex servicesEndSlider" style="background-image: url('../img/home-services-bg.jpg')" data-scroll-section>
 
       <div class="spacer-120"></div>
 

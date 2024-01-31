@@ -1,0 +1,91 @@
+@media screen and (max-width: 992px) {
+	.serviceCaptionText{
+		font-size: 14px !important;
+		font-weight: 400 !important;
+		
+	}
+	
+}
+@media screen and (max-width: 768px) {
+	.serviceCaptionText{
+		font-size: 12px !important;
+		font-weight: 400 !important;
+		
+	}
+    .captionmain{
+        overflow-x: scroll;
+    }
+    .serviceCaptionImg{
+        width :100vw !important;
+        height: 30vh !important;
+		background-size: cover;
+        
+    }
+	.serviceCaptionText{
+		font-size: 24px !important;
+		font-weight: 700 !important;
+		right: 35%;
+		top: 40%;
+	}
+	.serviceCaptionHotel{
+		font-size: 24px !important;
+		font-weight: 700 !important;
+		top: 40%;
+		right: 25%;
+	}
+	.captionFamily{
+		right: 30%
+	}
+	.sideMenu img{
+		background-size: contain;
+		width: 40rem !important;
+		/* position:fixed; */
+		/* top: 20%; */
+	}
+	
+
+	
+}
+@media screen and (max-width : 600px) {
+	.sideMenu img{
+		width: 60rem !important;
+		background-size: contain;
+		/* top: 50px; */
+		z-index: -10;
+		opacity: 0.5;
+	}
+	
+	.slide-item img{
+		border-top-left-radius: 2rem !important;
+		height: 400px !important;
+		
+	}
+	.servicesEndSlider{
+		min-height: 60vh !important;
+	}
+}
+@media screen and (max-width: 470px) {
+	.serviceCaptionHotel{
+		font-size: 24px !important;
+		font-weight: 700 !important;
+		top: 40%;
+		right: 20%;
+	}
+	.captionFamily{
+		right: 27%
+	}
+}
+@media screen and (max-width: 375px) {
+	.serviceCaptionText{
+        right: 30%;
+    }
+    .captionsuppilertext{
+        right:35% ;
+    }
+    .serviceCaptionHotel{
+		right: 23%;
+	}
+	.captionFamily{
+		right: 28%
+	}
+}
