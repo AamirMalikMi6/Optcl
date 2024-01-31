@@ -1,0 +1,10 @@
+/* about us style mobile screen */
+
+@media screen and (max-width: 750px) {
+	.about-section{
+		min-height: 20vh !important;
+	}
+	.textIndent{
+		text-align: justify !important;
+	}
+}

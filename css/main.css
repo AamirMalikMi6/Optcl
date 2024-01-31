@@ -273,7 +273,7 @@ footer ul>li>a:hover{
 
 .hideThis{display: none !important;}
 .showThis{display: block !important;}
-.showThisInline{display: inline-block; !important;}
+.showThisInline{display: inline-block !important;}
 
 .bordered-shadow {
     border-radius: 15px;
@@ -347,7 +347,7 @@ footer ul>li>a:hover{
     right: -3rem;
     top: -3rem;
 }
-.services-header .top img{max-width: :7rem}
+.services-header .top img{max-width: 7rem}
 .services-header .bottom{}
 
 .service-items{
@@ -724,6 +724,7 @@ footer ul>li>a:hover{
 	.textIndent{
 		text-align: justify !important;
 	}
+}
 
 /*  responsive design for mobile*/
 @media screen and (max-width: 991px) {

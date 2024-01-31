@@ -16,7 +16,9 @@
     
     <!--styles-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/navigation.css">
+
     <link rel="stylesheet" href="css/locomotive-scroll.min.css">
     
     <link rel="stylesheet" href="css/animate.css">
