@@ -5,6 +5,7 @@
   <!--header-->
   
   <header>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <?php include "navigation.php";?>
 
@@ -13,26 +14,26 @@
   <div data-scroll-container>
 
 
-    <section class="non-vh desktop-view" data-scroll-section>
+    <section class="non-vh " data-scroll-section>
       
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
-        <div class="spacer-40"></div>
+        <div class="spacer-120 spacer-mobile-60"></div>
+        <div class="spacer-40 mobile-remove-space"></div>
 
         <div class="container">
-          <h3 class="fnt-blue d-flex align-items-center">
-            <img src="img/drop-yellow-en.svg" class="img-fluid fa-mar-right-20"> 
+          <h3 class="fnt-blue d-flex align-items-center justify-content-center justify-content-md-start">
+            <img src="img/drop-yellow-en.svg" class="img-fluid fa-mar-right-20 "> 
            Media Center
           </h3>
           <div class="spacer-20"></div>
 
-          <div class="csc-video">
+          <div class="csc-video mobile-height-13rem mobile-overlay">
             <div class="ratio ratio-16x9">
              <video id="background-video" autoplay="" loop="" muted="">
                 <source src="vid/media-center.mov" type="video/mp4">
               </video>  
              </div> 
-             <div id="vid-caption">
+             <div id="vid-caption" class="mobile-vid-caption">
               <h1 class="fnt-white d-flex align-items-center">News</h1>
 
               <div class="spacer-20"></div>
@@ -56,10 +57,10 @@
 
     </section>
 
-    <section class="desktop-view" data-scroll-section>
+    <section class="" data-scroll-section>
 
       <div class="container-fluid bg-white">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 spacer-mobile-30"></div>
 
         <div class="container">
           <div class="row">
