@@ -79,12 +79,12 @@
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb1.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -100,16 +100,15 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb2.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -125,16 +124,15 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb3.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -150,17 +148,15 @@
                       </div>
                     </div>
                   </div>
-                  
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb4.jpg" class="mc-img img-fluid w-100">
-
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -176,16 +172,15 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb5.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -201,16 +196,15 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb6.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -226,16 +220,15 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb7.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -251,16 +244,15 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb8.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -276,17 +268,15 @@
                       </div>
                     </div>
                   </div>
-
-
                   <div class="mc-item col-md-4">
                     <div class="mc-content">
                       <img src="img/media-center/mc-thumb9.jpg" class="mc-img img-fluid w-100">
-                      <div class="mc-caption">
+                      <div class="mc-caption mobile-text-end mobile-mc-caption-height-35 mobile-mc-caption-padding">
                         <div class="top showThis">
-                          <h5 class="fnt-white">News</h5>
-                          <p class="fnt-white fnt-15">Lorem ipsum dolor sit amet consectetur.</p>
+                          <h5 class="fnt-white mobile-text-ellipsis">News Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati corporis nisi itaque, molestiae nobis consequuntur tempore quod illum quo, nemo temporibus dolor quidem aliquid beatae quam eos nulla. Accusantium.</h5>
+                          <p class="fnt-white fnt-15 mobile-text-ellipsis">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil numquam explicabo exercitationem recusandae. Sed excepturi sapiente quo dolor. Harum neque sequi iusto molestias nobis tempore, at illum non autem eos deleniti aperiam dolorum voluptate quidem rerum temporibus reiciendis fugiat? Dolorem eveniet officia obcaecati porro non expedita, quisquam autem reprehenderit tenetur libero hic doloribus, quaerat rerum atque aliquid. Amet voluptas hic autem laboriosam natus ea recusandae temporibus vitae ab error, nemo modi sit tempore, obcaecati rem. Deleniti rerum esse magni tempora culpa sapiente reiciendis veritatis dolorum modi magnam in dignissimos nesciunt illo corporis, doloribus ducimus! Delectus ipsa vitae velit rem.</p>
                           <div class="spacer-10"></div>
-                          <p class="mc-date fnt-12">10 Oct 2023 <i class="fa-solid fa-calendar-day fa-mar-left"></i></p>
+                          <p class="mc-date fnt-12"><i class="fa-solid fa-calendar-day fa-mar-right"></i> 10 Oct 2023 </p>
                         </div>
 
                         <div class="bottom hideThis">
@@ -301,7 +291,10 @@
 
                       </div>
                     </div>
-                  </div>                                                                                                                                               
+                  </div>
+                 
+
+                                                                                                                                                               
                   
                 </div>
             </div>
