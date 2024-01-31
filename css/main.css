@@ -724,6 +724,7 @@ footer ul>li>a:hover{
 	.textIndent{
 		text-align: justify !important;
 	}
+}
 
 /*  responsive design for mobile*/
 @media screen and (max-width: 991px) {
