@@ -5,7 +5,7 @@
   <!--header-->
   
   <header>
-
+  <link rel="stylesheet" type="text/css" href="../css//ar-home.css">
     <?php include "navigation.php";?>
 
   </header>
@@ -13,10 +13,10 @@
   <div data-scroll-container>
 
     <!--home banner-->
-    <section id="homebanner" class="non-parallax desktop-view" style="background-image: url('../img/home-banner1.jpg');" data-scroll-section>
+    <section id="homebanner" class="non-parallax" style="background-image: url('../img/home-banner1.jpg');" data-scroll-section>
       
       <div class="container-fluid">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 spacer-mobile-60"></div>
           <div class="container">
 
             <div class="row align-items-center">
@@ -25,9 +25,9 @@
               <div class="col-md-6">
 
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-12 col-md-2">
                     
-                    <div class="home-banner-social">
+                    <div class="home-banner-social row gap-2 justify-content-center">
                       <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                       <a href="#"><i class="fa-brands fa-instagram"></i></a>
                       <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
@@ -37,15 +37,15 @@
                   </div>
                   <div class="col-md-10">
 
-                    <h3 class="fnt-30 fnt-blue fnt-poppins-regular remMar">نقدم منتجات</h3>
-                    <h1 class="fnt-60"><font class="fnt-blue"><b>ذات جودة</b></font> <font class="fnt-is-yellow"><b>عاليـــــــة</b></font></h1>
+                    <h3 class="fnt-30 fnt-blue fnt-poppins-regular remMar mobile-text-center mobile-font-25">نقدم منتجات</h3>
+                    <h1 class="fnt-60  mobile-text-center mobile-font-50"><font class="fnt-blue"><b>ذات جودة</b></font> <font class="fnt-is-yellow"><b>عاليـــــــة</b></font></h1>
 
                     <div class="spacer-20"></div>
 
                     <div class="row">
                       <div class="col-md-3">
                         
-                        <img src="../img/logo2.svg" class="img-fluid w-100">
+                        <img src="../img/logo2.svg" class="img-fluid w-100 logo-img">
                         <div class="spacer-20"></div>
 
                         <a href="#" class="btn btn-warning btn-yellow w-100">اقرأ المزيد</a>
@@ -86,21 +86,37 @@
 
                               <div class="carousel-inner">
                                 <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-green"><img src="../img/products/prdct2.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-blue"><img src="../img/products/prdct3.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-green"><img src="../img/products/prdct4.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-brown"><img src="../img/products/prdct5.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct6.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-blue"><img src="../img/products/prdct7.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct8.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-blue"><img src="../img/products/prdct9.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct10.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-green"><img src="../img/products/prdct11.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct12.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-brown"><img src="../img/products/prdct13.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct14.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct15.png" class="d-block w-100 img-fluid"></div>
-                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct16.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-green"><img src="../img/products/prdct2.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-blue"><img src="../img/products/prdct3.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-green"><img src="../img/products/prdct4.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-brown"><img src="../img/products/prdct5.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct6.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-blue"><img src="../img/products/prdct7.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct8.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-blue"><img src="../img/products/prdct9.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct10.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-green"><img src="../img/products/prdct11.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct12.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-brown"><img src="../img/products/prdct13.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct14.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct15.png" class="d-block w-100 img-fluid "></div>
+                                <div class="carousel-item active" data-border="pb-red"><img src="../img/products/prdct1.png" class="d-block w-100 img-fluid"></div>
+                                <div class="carousel-item" data-border="pb-red"><img src="../img/products/prdct16.png" class="d-block w-100 img-fluid "></div>
                               </div>
 
                                <button class="carousel-control-prev hideThis" type="button" data-bs-target="#teardropProducts" data-bs-slide="prev">
@@ -134,23 +150,23 @@
 
             <div class="spacer-20"></div>
 
-            <div id="teardropThumbs" class="row carousel-indicators desktop-view">
-              <div class="col"><img src="../img/products/prdct1.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="0" class="active"></div>
-              <div class="col"><img src="../img/products/prdct2.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="1" class="active"></div>
-              <div class="col"><img src="../img/products/prdct3.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="2" class="active"></div>
-              <div class="col"><img src="../img/products/prdct4.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="3" class="active"></div>
-              <div class="col"><img src="../img/products/prdct5.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="4" class="active"></div>
-              <div class="col"><img src="../img/products/prdct6.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="5" class="active"></div>
-              <div class="col"><img src="../img/products/prdct7.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="6" class="active"></div>
-              <div class="col"><img src="../img/products/prdct8.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="7" class="active"></div>
-              <div class="col"><img src="../img/products/prdct9.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="8" class="active"></div>
-              <div class="col"><img src="../img/products/prdct10.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="9" class="active"></div>
-              <div class="col"><img src="../img/products/prdct11.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="10" class="active"></div>
-              <div class="col"><img src="../img/products/prdct12.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="11" class="active"></div>
-              <div class="col"><img src="../img/products/prdct13.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="12" class="active"></div>
-              <div class="col"><img src="../img/products/prdct14.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="13" class="active"></div>
-              <div class="col"><img src="../img/products/prdct15.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="14" class="active"></div>
-              <div class="col"><img src="../img/products/prdct16.png" class="img-fluid" data-bs-target="#teardropProducts" data-bs-slide-to="15" class="active"></div>
+            <div id="teardropThumbs" class="row carousel-indicators mobile-row">
+              <div class="col"><img src="../img/products/prdct1.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="0" class="active"></div>
+              <div class="col"><img src="../img/products/prdct2.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="1" class="active"></div>
+              <div class="col"><img src="../img/products/prdct3.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="2" class="active"></div>
+              <div class="col"><img src="../img/products/prdct4.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="3" class="active"></div>
+              <div class="col"><img src="../img/products/prdct5.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="4" class="active"></div>
+              <div class="col"><img src="../img/products/prdct6.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="5" class="active"></div>
+              <div class="col"><img src="../img/products/prdct7.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="6" class="active"></div>
+              <div class="col"><img src="../img/products/prdct8.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="7" class="active"></div>
+              <div class="col"><img src="../img/products/prdct9.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="8" class="active"></div>
+              <div class="col"><img src="../img/products/prdct10.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="9" class="active"></div>
+              <div class="col"><img src="../img/products/prdct11.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="10" class="active"></div>
+              <div class="col"><img src="../img/products/prdct12.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="11" class="active"></div>
+              <div class="col"><img src="../img/products/prdct13.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="12" class="active"></div>
+              <div class="col"><img src="../img/products/prdct14.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="13" class="active"></div>
+              <div class="col"><img src="../img/products/prdct15.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="14" class="active"></div>
+              <div class="col"><img src="../img/products/prdct16.png" class="img-fluid img-partners" data-bs-target="#teardropProducts" data-bs-slide-to="15" class="active"></div>
             </div>
             
 
@@ -163,24 +179,24 @@
     </section>
 
     <!--about us-->
-    <section id="aboutus" class="desktop-view" style="min-height: 50vh;" data-scroll-section>
+    <section id="aboutus" class="" style="min-height: 50vh;" data-scroll-section>
       
 
       <div class="container-fluid bg-light-blue">
-        <div class="spacer-120"></div>
+        <div class="spacer-120 spacer-mobile-60"></div>
         
           <div class="container" data-scroll data-scroll-repeat data-scroll-direction="vertical" data-scroll-speed="3">
             <div class="row align-items-center">
               
               <div class="col-md-5">
 
-                <h3 class="fnt-white d-flex align-items-center">
+                <h3 class="fnt-white d-flex align-items-center justify-content-center justify-content-md-start">
                   <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
                   عن الشركة
                 </h3>
                 <div class="spacer-20"></div>
 
-                <p class="fnt-white">بدأت رحلة جبل تموين الشرق عام 1965 ميلادي وكان هدفها الرئيسي هو الجمع بين أفضل المنتجات الغذائية وغيرها من انحاء العالم  لتلبية احتياجات السوق السعودي بدءاً من المنطقة الغربية ووصولا  لباقي مناطق المملكة ظلت تموين الشرق تكبر وتنمو حتى اصبحت من الشركات الرائدة في مجالها..</p>
+                <p class="fnt-white mobile-text-justify">بدأت رحلة جبل تموين الشرق عام 1965 ميلادي وكان هدفها الرئيسي هو الجمع بين أفضل المنتجات الغذائية وغيرها من انحاء العالم  لتلبية احتياجات السوق السعودي بدءاً من المنطقة الغربية ووصولا  لباقي مناطق المملكة ظلت تموين الشرق تكبر وتنمو حتى اصبحت من الشركات الرائدة في مجالها..</p>
                 <div class="spacer-20"></div>
 
                 <div class="row">
@@ -193,7 +209,7 @@
 
                 <div class="row">
                   <div class="col-md-6">
-                      <a href="" class="fnt-white d-flex align-items-center fnt-20">
+                      <a href="" class="fnt-white d-flex align-items-center fnt-20 justify-content-center justify-content-md-start">
                         <i class="fa-solid fa-book fnt-yellow fa-mar-right"></i>
                         كتالوج الشركة
                       </a>
@@ -202,7 +218,7 @@
 
                   <div class="col-md-6">
 
-                      <a href="" class="fnt-white d-flex align-items-center fnt-20">
+                      <a href="" class="fnt-white d-flex align-items-center fnt-20 justify-content-center justify-content-md-start">
                         <i class="fa-solid fa-file fnt-yellow fa-mar-right"></i>
                         تحميل ملف الشركة
                       </a>
@@ -231,17 +247,17 @@
             </div>
           </div>
 
-        <div class="spacer-120"></div>
+        <div class="spacer-120 spacer-mobile-60"></div>
 
         <!--floating details-->
         
       <div id="floating-details" class="container-fluid" data-scroll data-scroll-direction="vertical" data-scroll-speed="3" data-scroll-call="triggerCounter">
-        <div class="container bordered-shadow">
+        <div class="container bordered-shadow -mt-150">
 
           <div class="row">
             <div class="col-md-2"></div>
 
-            <div class="col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="spacer-40"></div>
                   <center>  
                       <i class="fd-icon fa-solid fa-users fnt-brown"></i>
@@ -251,7 +267,7 @@
                <div class="spacer-40"></div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-6 col-md-2">
                <div class="spacer-40"></div>
                   <center>  
                       <i class="fd-icon fa-solid fa-archway fnt-brown"></i>
@@ -262,7 +278,7 @@
                <div class="spacer-40"></div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-6 col-md-2">
                <div class="spacer-40"></div>
                   <center>  
                       <i class="fd-icon fa-solid fa-boxes-stacked fnt-brown"></i>
@@ -273,7 +289,7 @@
                <div class="spacer-40"></div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-6 col-md-2">
                <div class="spacer-40"></div>
                   <center>  
                       <i class="fd-icon fa-solid fa-award fnt-brown"></i>
@@ -295,15 +311,15 @@
     </section>
 
     <!--products-->
-    <section id="products" class="parallax desktop-view" data-scroll-section> 
-      <div class="spacer-120"></div>
+    <section id="products products-relative" class="parallax " data-scroll-section> 
+      <div class="spacer-120 spacer-mobile-60"></div>
 
       <div class="container" data-scroll data-scroll-repeat data-scroll-direction="vertical" data-scroll-speed="3">
         <div class="row">
           <div class="col-md-6">
 
-            <div class="spacer-120"></div>
-            <h3 class="fnt-blue d-flex align-items-center">
+            <div class="spacer-120 spacer-mobile-60"></div>
+            <h3 class="fnt-blue d-flex align-items-center justify-content-center justify-content-md-start">
               <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
               الأقسام و المنتجات
             </h3>
@@ -344,7 +360,7 @@
             </div>
 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mobile-hidden">
 
             <div class="prod-float" data-scroll data-scroll-direction="vertical" data-scroll-speed="5">
               <img src="../img/home-products-bg-ar.svg" class="img-fluid" >
@@ -355,17 +371,18 @@
         </div>
 
       </div>
+      <img src="../img/home-products-bg-en.svg" class="products-bg-img" >
 
-      <div class="spacer-120"></div>
+      <div class="spacer-120 spacer-mobile-60"></div>
     
     </section>
 
     <!--services-->
-    <section id="services" class="non-parallax desktop-view" style="background-image: url('../img/home-services-bg.jpg');" data-scroll-section>
-      <div class="spacer-120"></div>
+    <section id="services" class="non-parallax " style="background-image: url('../img/home-services-bg.jpg');" data-scroll-section>
+      <div class="spacer-120 spacer-mobile-60"></div>
 
       <div class="container" data-scroll-direction="vertical" data-scroll-repeat data-scroll-speed="3">
-        <h3 class="fnt-white d-flex align-items-center">
+        <h3 class="fnt-white d-flex align-items-center justify-content-center justify-content-md-start">
           <img src="../img/drop-yellow-ar.svg" class="img-fluid fa-mar-right-20"> 
           الخدمات
         </h3>
@@ -385,8 +402,8 @@
                 </div>
                 <div class="bottom">
 
-                  <h4 class="fnt-blue">تقديم الطعام</h4>
-                  <p class="fnt-blue fnt-20">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق..</p>
+                  <h4 class="fnt-blue  mobile-text-center">تقديم الطعام</h4>
+                  <p class="fnt-blue fnt-20  mobile-text-justify">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق..</p>
                   <div class="spacer-40"></div>
 
                   <div class="row">
@@ -513,7 +530,7 @@
 
         <div class="spacer-80"></div>
 
-        <div class="services-thumbs">
+        <div class="services-thumbs desktop-view">
 
           <div class="row">
 
@@ -565,8 +582,60 @@
           </div>
           
         </div>
+        
       </div>
-
+      <div id="carouselExampleCaptions" class="carousel slide mobile-view">
+        <div class="carousel-inner">
+          <div class="carousel-item active ml-15">
+            <a href="" onClick="return false;" data-thumb="serv-0">
+              <img src="../img/services/service0.jpg" class="img-fluid mobile-m-r-65">
+            </a>
+            <div class="carousel-caption item-caption caption fnt-white">
+              <h5>تقديم الطعام</h5>
+            </div>
+          </div>
+          <div class="carousel-item ml-15">
+            <a href="" onClick="return false;" data-thumb="serv-1">
+              <img src="../img/services/service1.jpg" class="img-fluid mobile-m-r-65">
+            </a>
+            <div class="carousel-caption item-caption caption fnt-white">
+              <h5>الموردون</h5>
+            </div>
+          </div>
+          <div class="carousel-item ml-15">
+            <a href="" onClick="return false;" data-thumb="serv-2">
+              <img src="../img/services/service2.jpg" class="img-fluid mobile-m-r-65">
+            </a>
+            <div class="carousel-caption item-caption caption fnt-white">
+              <h5>السوبر ماركت</h5>
+            </div>
+          </div>
+          <div class="carousel-item ml-15">
+            <a href="" onClick="return false;" data-thumb="serv-3">
+              <img src="../img/services/service3.jpg" class="img-fluid mobile-m-r-65 ">
+            </a>
+            <div class="carousel-caption item-caption caption fnt-white">
+              <h5>المطاعم و الفنادق</h5>
+            </div>
+          </div>
+          <div class="carousel-item ml-15">
+            <a href="" onClick="return false;" data-thumb="serv-4">
+              <img src="../img/services/service4.jpg" class="img-fluid mobile-m-r-65">
+            </a>
+            <div class="carousel-caption item-caption caption fnt-white">
+              <h5>الأسر المنتجة</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <div class="spacer-120"></div>
     </section>
