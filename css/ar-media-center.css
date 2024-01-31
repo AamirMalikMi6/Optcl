@@ -1,0 +1,70 @@
+
+/*  responsive design for mobile*/
+@media screen and (max-width: 991px) {
+	.mobile-margin-top-10 {
+		margin-top: 10px;
+	}
+	.mobile-margin-top-20 {
+		margin-top: 20px;
+	}
+	.mobile-margin-top-30 {
+		margin-top: 30px;
+	}
+	.mobile-margin-top-40 {
+		margin-top: 40px;
+	}
+    .mobile-margin-bottom-10 {
+        margin-bottom: 10px;
+    }
+    .mobile-margin-bottom-20 {
+        margin-bottom: 20px;
+    }
+	.spacer-mobile-30 {
+		display: block;
+		height: 30px;
+	}
+	.spacer-mobile-60 {
+		display: block;
+		height: 60px;
+	}
+	.mobile-remove-space {
+		height: 0px;
+	}
+	.mobile-height-13rem {
+		height: 13rem;
+	}
+	.mobile-vid-caption {
+		height: 100%;
+		backdrop-filter: blur(3px);
+		width: 100%;
+		position: absolute;
+		bottom: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		padding: 30px;
+	}
+	.mobile-text-center {
+		text-align: center;
+	}
+	.mobile-text-justify {
+		text-align: justify;
+	}
+	.mobile-text-end {
+		display: flex;
+		align-items: flex-end;
+	}
+	.mobile-mc-caption-height-35 {
+		height: 35% !important;
+	}
+	.mobile-mc-caption-padding {
+		padding: 0rem 1.5rem !important;
+	}
+	
+	
+}
+.mobile-text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 80vw 
+}
