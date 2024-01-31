@@ -776,5 +776,22 @@ footer ul>li>a:hover{
 	.mobile-text-justify {
 		text-align: justify;
 	}
+	.mobile-text-end {
+		display: flex;
+		align-items: flex-end;
+	}
+	.mobile-mc-caption-height-35 {
+		height: 35% !important;
+	}
+	.mobile-mc-caption-padding {
+		padding: 0rem 1.5rem !important;
+	}
 	
+	
+}
+.mobile-text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 80vw 
 }
